@@ -1,0 +1,30 @@
+{
+    "color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",// 设置主题文件
+    "font_face": "文泉驿等宽微米黑",// 设置字体
+    "font_size": 10,// 设置字体大小
+    //"font_options": [],// 字体选项：no_bold不显示粗体字，no_italic不显示斜体字，no_antialias和no_antialias关闭反锯齿
+    "gutter": true,// 是否显示行号边栏
+    "margin": 4,// 行号边栏和文字的间距
+    "match_selection": true,// 全文突出显示和当前选中字符相同的字符
+    "default_encoding": "UTF-8",// 默认编码格式
+    "line_numbers": true,// 是否显示行号
+    "fold_buttons": true,// 是否显示代码折叠按钮
+    "line_padding_bottom": 1,// 设置每一行到底部，以像素为单位的间距，效果相当于行距
+    "auto_match_enabled": true,// 自动匹配引号，括号等
+    "scroll_past_end": true,// 设置为false时，滚动到文本的最下方时，没有缓冲区
+    "tab_size": 4,// Tab键制表符宽度
+    "translate_tabs_to_spaces": true,// 设为true时，缩进和遇到Tab键时使用空格替代
+    "word_wrap": true,//是否自动换行，如果选auto，需要加双引号
+    "match_tags": true,// html和xml下突出显示光标所在标签的两端，影响HTML、XML、CSS等
+    //"auto_complete_selector": "source,text", //用到snippet的话加此行,否则请无视我
+    //"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?", //这些字符会在鼠标双击时隔断,可自行删除不必要的
+    "highlight_line": true, //高亮显示当前编辑的行,有时自动折行看不清,这个就把一整块显示出来,清晰一些
+    "show_encoding": true, //编辑器底部显示编码信息,用GBK编码的偶尔出现乱码,看看这个能查一下,虽然作用不大,放在下面也不占地方,无所谓了
+    //"save_on_focus_lost": true, //当焦点从当前编辑文档中丢失,会自动保存,看个人喜好咯
+    "highlight_modified_tabs": true, //高亮TAB显示被修改过的文档,如果上一条为关闭,修改过的文件看起来更清晰
+    "draw_minimap_border": true, //在编辑器右侧小代码地图上为当前区加个边框,视力不好可以加上,比如我
+    "always_show_minimap_viewport": true, //总是显示这个迷你地图窗口,还是视力不好
+    "folder_exclude_patterns": [".svn", ".git"],// 哪些文件会被显示到边栏上
+    "show_tab_close_buttons": false, //不显示TAB标签上的关闭图标
+    "ignored_packages": ["Vintage"]// 删除你想要忽略的插件，需要重启, 去掉Vinage开启vim模式
+}
