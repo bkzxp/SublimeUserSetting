@@ -27,4 +27,10 @@
     "folder_exclude_patterns": [".svn", ".git"],// 哪些文件会被显示到边栏上
     "show_tab_close_buttons": false, //不显示TAB标签上的关闭图标
     "ignored_packages": ["Vintage"]// 删除你想要忽略的插件，需要重启, 去掉Vinage开启vim模式
+    //以下都是插件
+    //alignment
+    //pakege control
+    //sidebarenhancement
+    //sublimecodeintel
+    //sublimelinter
 }
