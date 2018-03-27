@@ -23,7 +23,7 @@
     //"save_on_focus_lost": true, //当焦点从当前编辑文档中丢失,会自动保存,看个人喜好咯
     "highlight_modified_tabs": true, //高亮TAB显示被修改过的文档,如果上一条为关闭,修改过的文件看起来更清晰
     "draw_minimap_border": true, //在编辑器右侧小代码地图上为当前区加个边框,视力不好可以加上,比如我
-    "draw_white_space": "selection",    //显示制表符和表格
+    "draw_white_space": "all",    //显示制表符和表格
     "always_show_minimap_viewport": true, //总是显示这个迷你地图窗口,还是视力不好
     "folder_exclude_patterns": [".svn", ".git"],// 哪些文件会被显示到边栏上
     "show_tab_close_buttons": false, //不显示TAB标签上的关闭图标
